@@ -39,7 +39,7 @@ GOOGLE_APPLICATION_CREDENTIALS=./credentials/service-account-key.json
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/dwitin-backend.git
+   git clone https://github.com/C2P2-PS546/Dwitin.git dwitin-backend
    cd dwitin-backend
    ```
 
