@@ -1,0 +1,143 @@
+2024-12-13 13:38:49,110 - DEBUG - Creating converter from 3 to 5
+2024-12-13 13:38:49,323 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-12-13 13:38:49,385 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-13 13:38:49,387 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-13 13:38:49,390 - INFO -  * Restarting with stat
+2024-12-13 13:38:55,917 - DEBUG - Creating converter from 3 to 5
+2024-12-13 13:38:56,163 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-12-13 13:38:56,199 - WARNING -  * Debugger is active!
+2024-12-13 13:38:56,202 - INFO -  * Debugger PIN: 984-993-562
+2024-12-13 13:39:03,740 - DEBUG - Image opened successfully.
+2024-12-13 13:39:03,740 - DEBUG - Starting image preprocessing...
+2024-12-13 13:39:03,756 - DEBUG - Preprocessed image shape: (1, 128, 128, 1)
+2024-12-13 13:39:04,250 - DEBUG - Raw predictions: [[[2.9173532e-05 4.8845999e-02 4.3121997e-02 ... 8.9038463e-07
+   5.9758308e-06 2.7586814e-06]
+  [3.1129130e-05 6.7435518e-02 6.7046113e-02 ... 1.1642427e-07
+   5.0500707e-06 3.6888309e-06]
+  [4.1952597e-05 8.9824244e-02 3.9690070e-02 ... 4.8655121e-08
+   8.3090060e-07 6.6213477e-07]
+  ...
+  [5.3340667e-01 1.9302512e-02 2.0226182e-02 ... 1.0900040e-05
+   3.9851449e-05 6.9135026e-06]
+  [5.2820712e-01 1.1731948e-02 1.9721949e-02 ... 1.6598153e-05
+   5.6375968e-05 9.7147922e-06]
+  [5.4541665e-01 4.0590698e-03 2.2849623e-02 ... 2.2093767e-05
+   6.3127678e-05 7.3419478e-06]]]
+2024-12-13 13:39:04,250 - DEBUG - Starting prediction decoding...
+2024-12-13 13:39:04,274 - DEBUG - Decoded text (full): nm10tz6os814m1bobmbmbmbombombmbma
+2024-12-13 13:39:04,274 - DEBUG - Decoded result: {'company': 'nm10tz6os814m1bobmbmbmbombombmbma', 'address': 'N/A', 'date': 'N/A', 'total': 'N/A'}
+2024-12-13 13:39:04,274 - INFO - 127.0.0.1 - - [13/Dec/2024 13:39:04] "POST /predict HTTP/1.1" 200 -
+2024-12-13 13:41:18,314 - INFO -  * Detected change in 'c:\\bangkit-journey\\api-model-ocr\\app.py', reloading
+2024-12-13 13:41:18,833 - INFO -  * Restarting with stat
+2024-12-13 13:41:24,888 - DEBUG - Creating converter from 3 to 5
+2024-12-13 13:41:25,130 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-12-13 13:41:25,170 - WARNING -  * Debugger is active!
+2024-12-13 13:41:25,170 - INFO -  * Debugger PIN: 984-993-562
+2024-12-13 13:41:32,273 - DEBUG - Image opened successfully.
+2024-12-13 13:41:32,273 - DEBUG - Starting image preprocessing...
+2024-12-13 13:41:32,290 - DEBUG - Preprocessed image shape: (1, 128, 128, 1)
+2024-12-13 13:41:32,290 - DEBUG - Image preprocessed with shape: (1, 128, 128, 1)
+2024-12-13 13:41:32,814 - DEBUG - Raw predictions: [[[2.9173532e-05 4.8845999e-02 4.3121997e-02 ... 8.9038463e-07
+   5.9758308e-06 2.7586814e-06]
+  [3.1129130e-05 6.7435518e-02 6.7046113e-02 ... 1.1642427e-07
+   5.0500707e-06 3.6888309e-06]
+  [4.1952597e-05 8.9824244e-02 3.9690070e-02 ... 4.8655121e-08
+   8.3090060e-07 6.6213477e-07]
+  ...
+  [5.3340667e-01 1.9302512e-02 2.0226182e-02 ... 1.0900040e-05
+   3.9851449e-05 6.9135026e-06]
+  [5.2820712e-01 1.1731948e-02 1.9721949e-02 ... 1.6598153e-05
+   5.6375968e-05 9.7147922e-06]
+  [5.4541665e-01 4.0590698e-03 2.2849623e-02 ... 2.2093767e-05
+   6.3127678e-05 7.3419478e-06]]]
+2024-12-13 13:41:32,814 - DEBUG - Starting prediction decoding...
+2024-12-13 13:41:32,837 - DEBUG - Decoded texts: ['nm10tz6os814m1bobmbmbmbombombmbma']
+2024-12-13 13:41:32,837 - DEBUG - Decoded result: {'company': 'nm10tz6os814m1bobmbmbmbombombmbma', 'address': 'N/A', 'date': 'N/A', 'total': 'N/A'}
+2024-12-13 13:41:32,837 - INFO - 127.0.0.1 - - [13/Dec/2024 13:41:32] "POST /predict HTTP/1.1" 200 -
+2024-12-13 13:41:36,845 - DEBUG - Image opened successfully.
+2024-12-13 13:41:36,845 - DEBUG - Starting image preprocessing...
+2024-12-13 13:41:36,869 - DEBUG - Preprocessed image shape: (1, 128, 128, 1)
+2024-12-13 13:41:36,869 - DEBUG - Image preprocessed with shape: (1, 128, 128, 1)
+2024-12-13 13:41:37,142 - DEBUG - Raw predictions: [[[2.9173532e-05 4.8845999e-02 4.3121997e-02 ... 8.9038463e-07
+   5.9758308e-06 2.7586814e-06]
+  [3.1129130e-05 6.7435518e-02 6.7046113e-02 ... 1.1642427e-07
+   5.0500707e-06 3.6888309e-06]
+  [4.1952597e-05 8.9824244e-02 3.9690070e-02 ... 4.8655121e-08
+   8.3090060e-07 6.6213477e-07]
+  ...
+  [5.3340667e-01 1.9302512e-02 2.0226182e-02 ... 1.0900040e-05
+   3.9851449e-05 6.9135026e-06]
+  [5.2820712e-01 1.1731948e-02 1.9721949e-02 ... 1.6598153e-05
+   5.6375968e-05 9.7147922e-06]
+  [5.4541665e-01 4.0590698e-03 2.2849623e-02 ... 2.2093767e-05
+   6.3127678e-05 7.3419478e-06]]]
+2024-12-13 13:41:37,142 - DEBUG - Starting prediction decoding...
+2024-12-13 13:41:37,146 - DEBUG - Decoded texts: ['nm10tz6os814m1bobmbmbmbombombmbma']
+2024-12-13 13:41:37,148 - DEBUG - Decoded result: {'company': 'nm10tz6os814m1bobmbmbmbombombmbma', 'address': 'N/A', 'date': 'N/A', 'total': 'N/A'}
+2024-12-13 13:41:37,150 - INFO - 127.0.0.1 - - [13/Dec/2024 13:41:37] "POST /predict HTTP/1.1" 200 -
+2024-12-13 13:45:17,249 - INFO -  * Detected change in 'c:\\bangkit-journey\\api-model-ocr\\app.py', reloading
+2024-12-13 13:45:17,884 - INFO -  * Restarting with stat
+2024-12-13 13:45:24,210 - DEBUG - Creating converter from 3 to 5
+2024-12-13 13:45:24,407 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-12-13 13:45:24,446 - WARNING -  * Debugger is active!
+2024-12-13 13:45:24,449 - INFO -  * Debugger PIN: 984-993-562
+2024-12-13 13:45:30,275 - DEBUG - Image opened successfully.
+2024-12-13 13:45:30,275 - DEBUG - Starting image preprocessing...
+2024-12-13 13:45:30,291 - DEBUG - Preprocessed image shape: (1, 128, 128, 1)
+2024-12-13 13:45:30,291 - DEBUG - Image preprocessed with shape: (1, 128, 128, 1)
+2024-12-13 13:45:30,878 - DEBUG - Raw predictions: [[[2.9173532e-05 4.8845999e-02 4.3121997e-02 ... 8.9038463e-07
+   5.9758308e-06 2.7586814e-06]
+  [3.1129130e-05 6.7435518e-02 6.7046113e-02 ... 1.1642427e-07
+   5.0500707e-06 3.6888309e-06]
+  [4.1952597e-05 8.9824244e-02 3.9690070e-02 ... 4.8655121e-08
+   8.3090060e-07 6.6213477e-07]
+  ...
+  [5.3340667e-01 1.9302512e-02 2.0226182e-02 ... 1.0900040e-05
+   3.9851449e-05 6.9135026e-06]
+  [5.2820712e-01 1.1731948e-02 1.9721949e-02 ... 1.6598153e-05
+   5.6375968e-05 9.7147922e-06]
+  [5.4541665e-01 4.0590698e-03 2.2849623e-02 ... 2.2093767e-05
+   6.3127678e-05 7.3419478e-06]]]
+2024-12-13 13:45:30,878 - DEBUG - Starting prediction decoding...
+2024-12-13 13:45:30,903 - ERROR - Error decoding predictions: string index out of range
+2024-12-13 13:45:30,903 - DEBUG - Decoded result: {'company': 'N/A', 'address': 'N/A', 'date': 'N/A', 'total': 'N/A'}
+2024-12-13 13:45:30,903 - INFO - 127.0.0.1 - - [13/Dec/2024 13:45:30] "POST /predict HTTP/1.1" 200 -
+2024-12-13 13:47:26,437 - INFO -  * Detected change in 'c:\\bangkit-journey\\api-model-ocr\\app.py', reloading
+2024-12-13 13:47:27,066 - INFO -  * Restarting with stat
+2024-12-13 13:47:33,666 - DEBUG - Creating converter from 3 to 5
+2024-12-13 13:47:33,872 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-12-13 13:47:33,915 - WARNING -  * Debugger is active!
+2024-12-13 13:47:33,919 - INFO -  * Debugger PIN: 984-993-562
+2024-12-13 13:47:40,399 - DEBUG - Image opened successfully.
+2024-12-13 13:47:40,399 - DEBUG - Starting image preprocessing...
+2024-12-13 13:47:40,426 - DEBUG - Preprocessed image shape: (1, 128, 128, 1)
+2024-12-13 13:47:40,426 - DEBUG - Image preprocessed with shape: (1, 128, 128, 1)
+2024-12-13 13:47:41,506 - DEBUG - Raw predictions: [[[2.9173532e-05 4.8845999e-02 4.3121997e-02 ... 8.9038463e-07
+   5.9758308e-06 2.7586814e-06]
+  [3.1129130e-05 6.7435518e-02 6.7046113e-02 ... 1.1642427e-07
+   5.0500707e-06 3.6888309e-06]
+  [4.1952597e-05 8.9824244e-02 3.9690070e-02 ... 4.8655121e-08
+   8.3090060e-07 6.6213477e-07]
+  ...
+  [5.3340667e-01 1.9302512e-02 2.0226182e-02 ... 1.0900040e-05
+   3.9851449e-05 6.9135026e-06]
+  [5.2820712e-01 1.1731948e-02 1.9721949e-02 ... 1.6598153e-05
+   5.6375968e-05 9.7147922e-06]
+  [5.4541665e-01 4.0590698e-03 2.2849623e-02 ... 2.2093767e-05
+   6.3127678e-05 7.3419478e-06]]]
+2024-12-13 13:47:41,506 - DEBUG - Starting prediction decoding...
+2024-12-13 13:47:41,547 - ERROR - Error decoding predictions: string index out of range
+2024-12-13 13:47:41,547 - DEBUG - Decoded result: {'company': 'N/A', 'address': 'N/A', 'date': 'N/A', 'total': 'N/A'}
+2024-12-13 13:47:41,547 - INFO - 127.0.0.1 - - [13/Dec/2024 13:47:41] "POST /predict HTTP/1.1" 200 -
+2024-12-13 13:51:42,859 - INFO -  * Detected change in 'c:\\bangkit-journey\\api-model-ocr\\app.py', reloading
+2024-12-13 13:51:43,534 - INFO -  * Restarting with stat
+2024-12-13 13:51:49,982 - DEBUG - Creating converter from 3 to 5
+2024-12-13 13:51:50,227 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-12-13 13:51:50,260 - WARNING -  * Debugger is active!
+2024-12-13 13:51:50,260 - INFO -  * Debugger PIN: 984-993-562
+2024-12-13 13:53:18,949 - INFO -  * Detected change in 'c:\\bangkit-journey\\api-model-ocr\\app.py', reloading
+2024-12-13 13:53:19,433 - INFO -  * Restarting with stat
+2024-12-13 13:53:23,649 - DEBUG - Creating converter from 3 to 5
+2024-12-13 13:53:23,808 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-12-13 13:53:23,840 - WARNING -  * Debugger is active!
