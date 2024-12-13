@@ -2,6 +2,8 @@
 
 This repository contains the backend code for the DWITIN project, a platform for managing transactions, user profiles, and file uploads. The backend is built with Node.js, Express, Sequelize, and integrates with Google Cloud services.
 
+## Table of Contents
+
 1. [Features](#features)
 2. [Prerequisites](#prerequisites)
 3. [Environment Variables](#environment-variables)
